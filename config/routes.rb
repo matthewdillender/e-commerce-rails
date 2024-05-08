@@ -10,7 +10,9 @@ Rails.application.routes.draw do
     resources :categories
     resources :orders
     resources :carts
-    
+    resources :products
+    resources :carted_products
+
     resources :orders do
       resources :carted_products, only: [:index, :create, :destroy]
     end
