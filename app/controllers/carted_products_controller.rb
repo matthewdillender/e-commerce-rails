@@ -1,4 +1,4 @@
-class CartedProductsController < ApplicationController
+
   class CartedProductsController < ApplicationController
     before_action :set_order, only: [:index, :create, :destroy]
     before_action :set_carted_product, only: [:destroy]
@@ -38,4 +38,3 @@ class CartedProductsController < ApplicationController
     end
   end
   
-end
