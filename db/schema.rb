@@ -22,6 +22,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_08_022132) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
   create_table "carts", force: :cascade do |t|
     t.integer "user_id"
     t.string "session_id"
