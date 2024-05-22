@@ -35,7 +35,7 @@ products = Product.create([
 # Seed users
 users = User.create([
   { name: 'Amanda', email: 'amandajohn@etest.com', password: 'password', password_confirmation: 'password' },
-  { name: 'Matt', email: 'matt@test.com', password: 'password', password_confirmation: 'password' }
+  { name: 'Matt', email: 'matt@testrails .com', password: 'password', password_confirmation: 'password' }
 ])
 
 # Seed carts (optional)
