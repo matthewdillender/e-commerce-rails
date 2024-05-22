@@ -12,6 +12,8 @@ Rails.application.routes.draw do
     resources :carts
     resources :products
     resources :carted_products
+    resources :sessions, only: [:new, :create, :destroy]
+
 
     resources :orders do
       resources :carted_products, only: [:index, :create, :destroy]
